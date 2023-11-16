@@ -4,7 +4,9 @@ Here is a collection of known uses of Kafka Streams in production. This is based
 
 * [Salesforce](https://engineering.salesforce.com/real-time-einstein-insights-using-kafka-streams-ca94008c2c6f/) uses Kafka Streams to generate real time insights which are used to score and rank emails for boosting sales efficency.
 * [Deutsche Bahn](https://www.infoq.com/news/2020/01/kafka-event-stream-deutsche-bahn/) uses Kafka Streams to make announcements of train arrivals at stations.
-* [Walmart](https://www.slideshare.net/ConfluentInc/kafka-streams-at-scale-deepak-goyal-walmart-labs-kafka-summit-london-2019) uses Kafka Streams to make real time recommendations and detect fraud
+* Walmart:
+ * [Real time recommendations and Fraud detection](https://www.slideshare.net/ConfluentInc/kafka-streams-at-scale-deepak-goyal-walmart-labs-kafka-summit-london-2019)
+ * [Real time data processing and ML inferencing](https://www.slideshare.net/kafkazone/real-time-data-processing-and-model-inferncing-platform-with-kafka-streams-navinder-singh-walmart)
 * [Blackrock](https://engineering.blackrock.com/delivering-eventual-consistency-with-kafka-streams-c013a217b9b9) uses Kafka Streams to power their liquidity management solutions.
 * [Zalando](https://engineering.zalando.com/posts/2017/11/real-time-ranking-kafka.html) uses Kafka Streams to rank fashion websites in real-time.
 * [New York Times](https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/) manages their entire article publishing pipeline using Kafka Streams.
@@ -16,4 +18,5 @@ Here is a collection of known uses of Kafka Streams in production. This is based
 * [LineCorp](https://engineering.linecorp.com/en/blog/applying-kafka-streams-for-internal-message-delivery-pipeline) uses Kafka Streams to implement a task dispatching system and also for performing streaming operations on their Kafka topics.
 * Bloomberg:
   * [Real time adaptation of financial market events](https://www.confluent.io/events/kafka-summit-americas-2021/real-time-adaptation-of-financial-market-events-with-kafka/): Bloomberg reacts to changes in financial contracts in over the counter markets in real time using Kafka Streams
-  * [Derived data team uses Kafka Streams to do algorithmically derived pricing](https://www.confluent.io/resources/kafka-summit-2020/replaying-kstreams-apps-using-state-snapshots/). 
+  * [Derived data team uses Kafka Streams to do algorithmically derived pricing](https://www.confluent.io/resources/kafka-summit-2020/replaying-kstreams-apps-using-state-snapshots/).
+ * [Expedia](https://www.confluent.io/resources/kafka-summit-2020/launching-the-expedia-conversations-platform-from-zero-to-production-in-four-months/) built their real time conversations platform, which answers questions like "how long is my layover", etc., around Kafka Streams.
