@@ -35,7 +35,7 @@ Here is a collection of known uses of Kafka Streams in production. This is based
 * [Rabobank](https://axual.com/real-time-financial-alerts-at-rabobank-with-apache-kafkas-streams-api/) builts its realtime Rabo Alerts service upon financial events using Kafka Streams.
 * [Wise](https://www.confluent.io/fr-fr/events/kafka-summit-london-2023/streaming-infrastructure-at-wise/) uses Kafka Streams to power the instant money movement features of their financial platform.
 * [Zopa Bank](https://www.confluent.io/events/kafka-summit-london-2023/highly-available-kafka-consumers-and-kafka-streams-on-kubernetes/) uses Kafka clients and Kafka Streams to power their backend event driven applications.
-*[Metronome](https://www.responsive.dev/customers/metronome) uses Kafka Streams to power the core of the billing pipeline which powers features like spend limits and spend alerts for companies like OpenAI, Nvidia, Databricks, and many more.
+* [Metronome](https://www.responsive.dev/customers/metronome) uses Kafka Streams to power the core of the billing pipeline which powers features like spend limits and spend alerts for companies like OpenAI, Nvidia, Databricks, and many more.
 
 
 # Manufacturing and Logistics
