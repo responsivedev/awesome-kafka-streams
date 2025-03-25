@@ -55,3 +55,4 @@ Here is a collection of known uses of Kafka Streams in production. This is based
 
 # Security
 * [Imperva](https://www.imperva.com/blog/not-just-for-processing-how-kafka-streams-as-a-distributed-database-boosted-our-reliability-and-reduced-maintenance/) uses Kafka Streams to build a highly-available and fault-tolerant distributed data store for their microservices.
+* [Salt Security](https://www.responsive.dev/blog/salt-security-scaling-kafka-streams) uses Kafka Streams as the basis of real time anomaly detection in their API security product.
